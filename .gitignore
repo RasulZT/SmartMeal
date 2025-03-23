@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.log
+*.sqlite3
+*.env
+*.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+*.pot
+*.pyc
+
+# Django media/static files
+/media/
+/staticfiles/
+
+# VSCode & PyCharm
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (опционально — можно включать вручную)
+*/migrations/__pycache__/
+**/migrations/*.pyc
+
+# dotenv
+.env
+.env.*
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Coverage / Testing
+htmlcov/
+.coverage
+.tox/
+.noseids
+.pytest_cache/
+
+# MyPy / Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+
