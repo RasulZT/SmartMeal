@@ -14,5 +14,6 @@ urlpatterns = [
 
 
     #user
-    path("me/", UserProfileAPIView.as_view(), name="user-profile")
+    path("me/", UserProfileAPIView.as_view(), name="user-profile"),
+    path("saved-recipes/", SavedRecipesAPIView.as_view(), name="saved-recipes")
 ]

@@ -11,4 +11,5 @@ urlpatterns = [
     path("articles/<int:pk>/", ArticleRetrieveUpdateDestroyAPIView.as_view(), name="article-detail"),
 
     path("comments/", CommentListCreateAPIView.as_view(), name="recipe-comments"),
+
 ]
